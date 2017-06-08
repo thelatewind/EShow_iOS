@@ -1,0 +1,108 @@
+//
+//  EShowiOS.pch
+//  EShowIOS
+//
+//  Created by 王迎军 on 2016/11/22.
+//  Copyright © 2016年 王迎军. All rights reserved.
+//
+
+#ifndef EShowiOS_pch
+#define EShowiOS_pch
+#ifdef __OBJC__
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "SDAutoLayout.h"
+#import "JKUtil.h"
+#import "BaseNavigationController.h"
+#import "UIButton+extension.h"
+#import "SVProgressHUD.h"
+#import "UIColor+Util.h"
+#import "UIImage+Common.h"
+#import "UIButton+Bootstrap.h"
+#import "NetworkEngine.h"
+#import "Toast+UIView.h"
+#import "NSObject+Common.h"
+#import "LRHttpTool.h"
+#import "MBProgressHUD.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+#import "Reachability.h"
+#import <Masonry/Masonry.h>
+
+#import "AppDelegate.h"
+#import "Login.h"
+
+
+
+
+
+#define BaseUrl @"http://api.eshow.org.cn/"
+
+//常用变量
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kPaddingLeftWidth 15.0
+#define kLoginPaddingLeftWidth 18.0
+#define kMySegmentControl_Height 44.0
+#define kMySegmentControlIcon_Height 70.0
+
+
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+
+
+
+#define kScaleFrom_iPhone5_Desgin(_X_) (_X_ * (ScreenWidth/320))
+
+#define  kBackButtonFontSize 16
+#define  kNavTitleFontSize 18
+#define  kBadgeTipStr @"badgeTip"
+
+#define kPlaceholderMonkeyRoundWidth(_width_) [UIImage imageNamed:[NSString stringWithFormat:@"placeholder_monkey_round_%.0f", _width_]]
+#define kPlaceholderMonkeyRoundView(_view_) [UIImage imageNamed:[NSString stringWithFormat:@"placeholder_monkey_round_%.0f", CGRectGetWidth(_view_.frame)]]
+
+#define ColorTableSectionBg [UIColor colorWithRed:(247.0 / 255.0f) green:(247.0 /255.0f) blue:(240.0 / 255.0f) alpha:1.0f]
+#define ColorNav_back [UIColor colorWithRed:(247 / 255.0f) green:(105 / 255.0f) blue:(86 / 255.0f) alpha:1]
+
+/**适配字体大小*/
+#define FONTSIZE(size) ScreenWidth > 375 ? (size * (414.0 / 375.0)) : (ScreenWidth == 375 ? size : size  * (320.0 / 375.0))
+#define kTabBarButtonItemTintColor RGBColor(106, 182, 29)
+#define SystemFont(size) [UIFont systemFontOfSize:size]
+
+
+#define ScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define ScaleSize ScreenWidth/375.0
+
+//链接颜色
+#define kLinkAttributes     @{(__bridge NSString *)kCTUnderlineStyleAttributeName : [NSNumber numberWithBool:NO],(NSString *)kCTForegroundColorAttributeName : (__bridge id)[UIColor colorWithHexString:@"#03a9f4"].CGColor}
+#define kLinkAttributesActive       @{(NSString *)kCTUnderlineStyleAttributeName : [NSNumber numberWithBool:NO],(NSString *)kCTForegroundColorAttributeName : (__bridge id)[[UIColor colorWithHexString:@"#0288D1"] CGColor]}
+//常用色
+#define KTabbarSelectedColor  RGB(0.8,0.2,0.22)
+#define KTabbarNormalColor  RGBColor(247,105,86)
+//#define KTabBackgroundColor RGBColor(236,241,245)
+#define KTabGrayTextColor  RGBColor(161,177,194)
+#define KTabBlackTextColor  RGBColor(50,65,98)
+#define KTabRedTextColor  RGBColor(255,89,127)
+#define KTabYellowTextColor  RGBColor(255,255,218)
+#define kNaviBarButtonItemTintColor RGBColor(13, 111, 187)
+
+#define KTabBackgroundColor RGBColor(247,247,240)
+//#define <#macro#>
+
+
+#define RGBColor(a,b,c)  [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1.0f]
+
+#define RGB(a,b,c) [UIColor colorWithRed:a green:b blue:c alpha:1.0f]
+
+#define WBLog(...) NSLog(__VA_ARGS__)
+#else //处于发布阶段
+#define WBLog(...)
+
+
+
+
+
+
+#endif /* EShowiOS_pch */
+#endif

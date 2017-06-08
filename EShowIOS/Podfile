@@ -1,0 +1,29 @@
+platform :ios, '7.0'
+target 'EShowIOS' do
+
+pod 'AFNetworking','2.6.3'
+pod 'SDWebImage'
+
+pod 'UMengSocialCOM'
+pod 'JCSegmentBarController'
+pod 'Pingpp'
+pod 'Qiniu'
+pod 'ASIHTTPRequest'
+pod 'SDCycleScrollView','~> 1.64'
+pod 'GTSDK'
+
+
+pod 'TBXML'
+pod 'TOWebViewController'
+pod 'TTTAttributedLabel'
+pod 'TPKeyboardAvoiding'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'NYXImagesKit', '2.3'
+pod 'JazzHands', '2.0.0'
+pod 'PureLayout'
+pod 'JCSegmentBarController'
+pod 'pop'
+pod 'MBProgressHUD', '0.9'
+
+end

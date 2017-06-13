@@ -90,4 +90,19 @@
         }
     }];
 }
+
+#pragma mark Account
+
+- (void)request_Save_AlipayAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id, NSError *))block{
+    
+}
+- (void)request_Save_WeiXinAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id, NSError *))block{
+    
+}
+- (void)request_Save_BankCardAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id, NSError *))block{
+    
+}
+- (void)request_BankCardList_WithParams:(NSDictionary *)params andBlock:(void (^)(id, NSError *))block{
+    
+}
 @end

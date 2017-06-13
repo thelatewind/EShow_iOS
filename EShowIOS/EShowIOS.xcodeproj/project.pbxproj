@@ -83,6 +83,15 @@
 		31417B491E8A495D004C94BA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 31417B461E8A495D004C94BA /* SVProgressHUD.m */; };
 		314D6B361EDFB86700F15C87 /* EShowNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 314D6B351EDFB86700F15C87 /* EShowNetAPIClient.m */; };
 		317D62781E49CBFC00462A75 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 317D62771E49CBFC00462A75 /* UIButton+Bootstrap.m */; };
+		31925BEB1EEF8B67006D0072 /* MineAccountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BDB1EEF8B67006D0072 /* MineAccountInfoViewController.m */; };
+		31925BEC1EEF8B67006D0072 /* MineAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BDD1EEF8B67006D0072 /* MineAccountViewController.m */; };
+		31925BED1EEF8B67006D0072 /* MineAccountWithdrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BDF1EEF8B67006D0072 /* MineAccountWithdrawViewController.m */; };
+		31925BEE1EEF8B67006D0072 /* MineAlipayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BE21EEF8B67006D0072 /* MineAlipayViewController.m */; };
+		31925BEF1EEF8B67006D0072 /* MineBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BE41EEF8B67006D0072 /* MineBankCardViewController.m */; };
+		31925BF01EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BE61EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.m */; };
+		31925BF11EEF8B67006D0072 /* MineBankSetInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BE81EEF8B67006D0072 /* MineBankSetInfoViewController.m */; };
+		31925BF21EEF8B67006D0072 /* MineWeiXinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BEA1EEF8B67006D0072 /* MineWeiXinViewController.m */; };
+		31925BF51EEF8C8A006D0072 /* WithdrawTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31925BF41EEF8C8A006D0072 /* WithdrawTableViewCell.m */; };
 		31F20B3C1EE1046900054F5F /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F20B3B1EE1046900054F5F /* Login.m */; };
 		31F20B421EE16D3F00054F5F /* SolutionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F20B411EE16D3F00054F5F /* SolutionTableViewCell.m */; };
 		31F7F0C11EE003A8001305E2 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F7F0C01EE003A8001305E2 /* NSObject+Common.m */; };
@@ -262,6 +271,24 @@
 		314D6B351EDFB86700F15C87 /* EShowNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EShowNetAPIClient.m; sourceTree = "<group>"; };
 		317D62761E49CBFC00462A75 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
 		317D62771E49CBFC00462A75 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		31925BDA1EEF8B67006D0072 /* MineAccountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineAccountInfoViewController.h; sourceTree = "<group>"; };
+		31925BDB1EEF8B67006D0072 /* MineAccountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineAccountInfoViewController.m; sourceTree = "<group>"; };
+		31925BDC1EEF8B67006D0072 /* MineAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineAccountViewController.h; sourceTree = "<group>"; };
+		31925BDD1EEF8B67006D0072 /* MineAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineAccountViewController.m; sourceTree = "<group>"; };
+		31925BDE1EEF8B67006D0072 /* MineAccountWithdrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineAccountWithdrawViewController.h; sourceTree = "<group>"; };
+		31925BDF1EEF8B67006D0072 /* MineAccountWithdrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineAccountWithdrawViewController.m; sourceTree = "<group>"; };
+		31925BE11EEF8B67006D0072 /* MineAlipayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineAlipayViewController.h; sourceTree = "<group>"; };
+		31925BE21EEF8B67006D0072 /* MineAlipayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineAlipayViewController.m; sourceTree = "<group>"; };
+		31925BE31EEF8B67006D0072 /* MineBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineBankCardViewController.h; sourceTree = "<group>"; };
+		31925BE41EEF8B67006D0072 /* MineBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineBankCardViewController.m; sourceTree = "<group>"; };
+		31925BE51EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineBankOpenAccountChooseViewController.h; sourceTree = "<group>"; };
+		31925BE61EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineBankOpenAccountChooseViewController.m; sourceTree = "<group>"; };
+		31925BE71EEF8B67006D0072 /* MineBankSetInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineBankSetInfoViewController.h; sourceTree = "<group>"; };
+		31925BE81EEF8B67006D0072 /* MineBankSetInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineBankSetInfoViewController.m; sourceTree = "<group>"; };
+		31925BE91EEF8B67006D0072 /* MineWeiXinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineWeiXinViewController.h; sourceTree = "<group>"; };
+		31925BEA1EEF8B67006D0072 /* MineWeiXinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineWeiXinViewController.m; sourceTree = "<group>"; };
+		31925BF31EEF8C8A006D0072 /* WithdrawTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawTableViewCell.h; sourceTree = "<group>"; };
+		31925BF41EEF8C8A006D0072 /* WithdrawTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawTableViewCell.m; sourceTree = "<group>"; };
 		31F20B3A1EE1046900054F5F /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		31F20B3B1EE1046900054F5F /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		31F20B401EE16D3F00054F5F /* SolutionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionTableViewCell.h; sourceTree = "<group>"; };
@@ -544,6 +571,13 @@
 		312E21101DE416E300C0EB51 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				31925BDA1EEF8B67006D0072 /* MineAccountInfoViewController.h */,
+				31925BDB1EEF8B67006D0072 /* MineAccountInfoViewController.m */,
+				31925BDC1EEF8B67006D0072 /* MineAccountViewController.h */,
+				31925BDD1EEF8B67006D0072 /* MineAccountViewController.m */,
+				31925BDE1EEF8B67006D0072 /* MineAccountWithdrawViewController.h */,
+				31925BDF1EEF8B67006D0072 /* MineAccountWithdrawViewController.m */,
+				31925BE01EEF8B67006D0072 /* MineAccount */,
 				312E21A61DE426C500C0EB51 /* MeViewController.h */,
 				312E21A71DE426C500C0EB51 /* MeViewController.m */,
 			);
@@ -738,6 +772,23 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		31925BE01EEF8B67006D0072 /* MineAccount */ = {
+			isa = PBXGroup;
+			children = (
+				31925BE11EEF8B67006D0072 /* MineAlipayViewController.h */,
+				31925BE21EEF8B67006D0072 /* MineAlipayViewController.m */,
+				31925BE31EEF8B67006D0072 /* MineBankCardViewController.h */,
+				31925BE41EEF8B67006D0072 /* MineBankCardViewController.m */,
+				31925BE51EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.h */,
+				31925BE61EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.m */,
+				31925BE71EEF8B67006D0072 /* MineBankSetInfoViewController.h */,
+				31925BE81EEF8B67006D0072 /* MineBankSetInfoViewController.m */,
+				31925BE91EEF8B67006D0072 /* MineWeiXinViewController.h */,
+				31925BEA1EEF8B67006D0072 /* MineWeiXinViewController.m */,
+			);
+			path = MineAccount;
+			sourceTree = "<group>";
+		};
 		31F20B3D1EE16D0D00054F5F /* CCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,6 +802,8 @@
 		31F20B3E1EE16D0D00054F5F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				31925BF31EEF8C8A006D0072 /* WithdrawTableViewCell.h */,
+				31925BF41EEF8C8A006D0072 /* WithdrawTableViewCell.m */,
 				31F20B401EE16D3F00054F5F /* SolutionTableViewCell.h */,
 				31F20B411EE16D3F00054F5F /* SolutionTableViewCell.m */,
 				310352CA1EE532E100D9FC19 /* SuccessCaseTableViewCell.h */,
@@ -972,6 +1025,7 @@
 				31318D161EE8EEA000F2BDA9 /* SetMobileViewController.m in Sources */,
 				310352CC1EE532E100D9FC19 /* SuccessCaseTableViewCell.m in Sources */,
 				31318D151EE8EEA000F2BDA9 /* LoginCaptchViewController.m in Sources */,
+				31925BF11EEF8B67006D0072 /* MineBankSetInfoViewController.m in Sources */,
 				312E21531DE4260100C0EB51 /* MJFoundation.m in Sources */,
 				312E215D1DE4260100C0EB51 /* UIView+SDAutoLayout.m in Sources */,
 				310352EC1EE559D300D9FC19 /* LNLocationGeocoder.m in Sources */,
@@ -993,7 +1047,10 @@
 				31417B491E8A495D004C94BA /* SVProgressHUD.m in Sources */,
 				31318D181EE8EEA000F2BDA9 /* RegisterViewController.m in Sources */,
 				312E21921DE4262100C0EB51 /* UIImage+Common.m in Sources */,
+				31925BF21EEF8B67006D0072 /* MineWeiXinViewController.m in Sources */,
 				312E21A21DE426A600C0EB51 /* FunctionViewController.m in Sources */,
+				31925BEC1EEF8B67006D0072 /* MineAccountViewController.m in Sources */,
+				31925BF51EEF8C8A006D0072 /* WithdrawTableViewCell.m in Sources */,
 				31318D191EE8EEA000F2BDA9 /* LoginViewController.m in Sources */,
 				312E21941DE4262100C0EB51 /* UITapImageView.m in Sources */,
 				31417B471E8A495D004C94BA /* SVIndefiniteAnimatedView.m in Sources */,
@@ -1002,6 +1059,7 @@
 				312E21161DE4248300C0EB51 /* BaseViewController.m in Sources */,
 				312E21591DE4260100C0EB51 /* NSObject+MJKeyValue.m in Sources */,
 				3121E4E51DD6ED0000D9B243 /* main.m in Sources */,
+				31925BEF1EEF8B67006D0072 /* MineBankCardViewController.m in Sources */,
 				31F20B3C1EE1046900054F5F /* Login.m in Sources */,
 				31318D0A1EE8EE9000F2BDA9 /* ForgetPasswordViewController.m in Sources */,
 				312E21961DE4262100C0EB51 /* UIView+Frame.m in Sources */,
@@ -1009,6 +1067,7 @@
 				312E214C1DE4260000C0EB51 /* Toast+UIView.m in Sources */,
 				312E215B1DE4260100C0EB51 /* NSString+MJExtension.m in Sources */,
 				312E214D1DE4260000C0EB51 /* JKUtil.m in Sources */,
+				31925BEB1EEF8B67006D0072 /* MineAccountInfoViewController.m in Sources */,
 				31318D141EE8EEA000F2BDA9 /* IntroductionViewController.m in Sources */,
 				310352E91EE559D300D9FC19 /* JJAddressPickerController.m in Sources */,
 				312E21A81DE426C500C0EB51 /* MeViewController.m in Sources */,
@@ -1020,9 +1079,11 @@
 				312E221D1DE533C700C0EB51 /* NetworkEngine.m in Sources */,
 				312E211C1DE4255C00C0EB51 /* BaseNavigationController.m in Sources */,
 				31F20B421EE16D3F00054F5F /* SolutionTableViewCell.m in Sources */,
+				31925BEE1EEF8B67006D0072 /* MineAlipayViewController.m in Sources */,
 				312E21501DE4260000C0EB51 /* LFLUISegmentedControl.m in Sources */,
 				310352E81EE559D300D9FC19 /* RecentCityCell.m in Sources */,
 				310352EA1EE559D300D9FC19 /* ChineseToPinyin.m in Sources */,
+				31925BF01EEF8B67006D0072 /* MineBankOpenAccountChooseViewController.m in Sources */,
 				312E218C1DE4262100C0EB51 /* UIBarButtonItem+Extension.m in Sources */,
 				312E21881DE4262100C0EB51 /* Foundation+Log.m.m in Sources */,
 				312E21561DE4260100C0EB51 /* MJPropertyType.m in Sources */,
@@ -1035,6 +1096,7 @@
 				312E21511DE4260100C0EB51 /* MJDictionaryCache.m in Sources */,
 				312E21991DE4262100C0EB51 /* AddressManager.m in Sources */,
 				310352E71EE559D300D9FC19 /* HotCityCell.m in Sources */,
+				31925BED1EEF8B67006D0072 /* MineAccountWithdrawViewController.m in Sources */,
 				317D62781E49CBFC00462A75 /* UIButton+Bootstrap.m in Sources */,
 				312E21551DE4260100C0EB51 /* MJPropertyKey.m in Sources */,
 			);

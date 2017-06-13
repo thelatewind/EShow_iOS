@@ -7,7 +7,7 @@
 //
 
 #import "MeViewController.h"
-
+#import "MineAccountViewController.h"
 @interface MeViewController ()
 
 @end
@@ -18,8 +18,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"我的";
+    
+    
+    UIButton *captchLoginBtn = ({
+        UIButton *button = [self setNormalButton];
+        button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [button setTitle:@"我的账户" forState:UIControlStateNormal];
+        [self.view addSubview:button];
+        [button mas_makeConstraints:^(MASConstraintMaker *make){
+            make.size.mas_equalTo(CGSizeMake(100, 30));
+            make.left.equalTo (self.view).with.offset(kLoginPaddingLeftWidth);
+            make.top.equalTo(self.view.mas_top).offset(150);
+        }];
+        button;
+    });
+    [captchLoginBtn addTarget:self action:@selector(captchLoginBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
 }
-
+- (void)captchLoginBtnClicked:(id)sender{
+    MineAccountViewController *account  = [MineAccountViewController new];
+    [self.navigationController pushViewController:account animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

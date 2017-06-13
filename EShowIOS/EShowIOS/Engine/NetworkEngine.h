@@ -11,16 +11,9 @@
 #import "AFNetworking.h"
 //请求超时
 #define TIMEOUT 30
-//typedef void(^SuccessBlock)(id responseBody);
-//
-//typedef void(^FailureBlock)(id error);
+
 
 @interface NetworkEngine : NSObject
-
-//+(NetworkEngine *)sharedManager;
-//-(AFHTTPRequestOperationManager *)baseHtppRequest;
-//
-//- (void)PostParameter:(NSDictionary *)parameter url:(NSString *)url successBlock:(SuccessBlock)successBlock failureBlock:(FailureBlock)failureBlock;
 
 + (instancetype)sharedManager;
 
@@ -32,5 +25,13 @@
 - (void)request_Reset_Password_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
 - (void)request_Register_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
 - (void)request_Bind_Third_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
+
+
+
+#pragma mark Account
+- (void)request_Save_AlipayAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
+- (void)request_Save_WeiXinAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
+- (void)request_Save_BankCardAccount_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
+- (void)request_BankCardList_WithParams:(NSDictionary *)params andBlock:(void (^)(id data, NSError *error))block;
 
 @end

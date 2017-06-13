@@ -49,6 +49,36 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = KTabBackgroundColor;
 }
+- (UIView *)setView{
+    UIView *view = [UIView new];
+    view.backgroundColor = [UIColor whiteColor];
+    return view;
+}
+- (UIButton *)setButton{
+    UIButton *btn = [UIButton new];
+    [btn setBackgroundImage:[UIImage imageWithColor:KTabbarNormalColor] forState:UIControlStateNormal];
+    [btn.titleLabel setFont:[UIFont systemFontOfSize:15]];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    return btn;
+}
+- (UILabel *)setCellFineLabel{
+    UILabel *label = [UILabel new];
+    label.textColor = KTabBlackTextColor;
+    label.font = [UIFont systemFontOfSize:15];
+    return label;
+}
+#pragma mark - Table view Header Footer
+- (UIView *)customHeaderView{
+    UIView *headerV = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 15)];
+    headerV.backgroundColor = [UIColor clearColor];
+    return headerV;
+}
+- (UIView *)customFooterView{
+    UIView *headerV = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 0.04*ScreenHeight)];
+    headerV.backgroundColor = [UIColor clearColor];
+    return headerV;
+}
+
 - (UIButton *)setNormalButton{
     UIButton *btn = [UIButton new];
     [btn.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];

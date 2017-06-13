@@ -67,7 +67,7 @@ static NSString *kGroupName = @"GroupName";
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:childVC];
     //    nav.navigationBar.barStyle = UIBarStyleBlack;
     //    nav.navigationBar.backgroundColor = RGBColor(13, 111, 187);
-    nav.navigationBar.tintColor = [UIColor whiteColor];
+    nav.navigationBar.tintColor = KTabbarNormalColor;
     // 统一设置导航标题前景色
     NSMutableDictionary *naviBarTextAttrs = [NSMutableDictionary dictionary];
     naviBarTextAttrs[NSForegroundColorAttributeName] = RGBColor(247, 105, 86);

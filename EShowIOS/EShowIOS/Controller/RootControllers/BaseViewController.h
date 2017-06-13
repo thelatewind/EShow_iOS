@@ -12,6 +12,12 @@
 
 
 + (BOOL)valiMobile:(NSString *)mobile;
+- (UIView *)setView;
+- (UIButton *)setButton;
+- (UILabel *)setCellFineLabel;
+
+- (UIView *)customHeaderView;
+- (UIView *)customFooterView;
 - (UIButton *)setNormalButton;
 - (UITextField *)setNormalTextField;
 @end

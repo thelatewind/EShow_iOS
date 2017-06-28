@@ -160,7 +160,7 @@
 - (void)sendLogin{
     if (_telephone_text.text.length > 0 && _password_text.text.length > 0) {
         [[NetworkEngine sharedManager] request_Login_Captcha_WithParams:@{@"user.username":_telephone_text.text,@"code":_password_text.text} andBlock:^(id data, NSError *error) {
-            [[NetworkEngine sharedManager] request_Bind_Third_WithParams:@{@"accessToken":[[NSUserDefaults standardUserDefaults] objectForKey:@"accessTokenLogin"],@"thirdParty.username":_telephone_text.text,@"thirdParty.nickname":_thirdPartyNickName,@"thirdParty.photo":_thirdPartyIcon,@"thirdParty.platform":_thirdPartyType} andBlock:^(id data, NSError *error) {
+            [[NetworkEngine sharedManager] request_Bind_Third_WithParams:@{@"accessToken":[[NSUserDefaults standardUserDefaults] objectForKey:@"accessTokenLogin"],@"thirdParty.username":_thirdPartyID,@"thirdParty.nickname":_thirdPartyNickName,@"thirdParty.photo":_thirdPartyIcon,@"thirdParty.platform":_thirdPartyType} andBlock:^(id data, NSError *error) {
                 if (data) {
                     [((AppDelegate *)[UIApplication sharedApplication].delegate) setupTabViewController];
                 }

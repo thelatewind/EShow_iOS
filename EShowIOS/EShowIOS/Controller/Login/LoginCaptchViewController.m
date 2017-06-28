@@ -295,7 +295,7 @@
                         SetMobileViewController *mobile = [SetMobileViewController new];
                         mobile.thirdPartyID = snsAccount.usid;
                         mobile.thirdPartyIcon = snsAccount.iconURL;
-                        mobile.thirdPartyType = @"wx";
+                        mobile.thirdPartyType = @"weixin";
                         mobile.thirdPartyNickName = snsAccount.userName;
                         [self.navigationController pushViewController:mobile animated:YES];
                     }else{
